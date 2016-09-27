@@ -1,0 +1,60 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: dungeonFont;
+}
+
+body{
+	background-color: #ccc;
+}
+
+p{
+	font-size: 24px;
+}
+
+h2, h3{
+	text-align: center;
+}
+
+h2{
+	color: #f00;
+	font-size: 36px;
+}
+
+h3{
+	color: #aaa;
+	font-size: 24px;
+}
+
+span{
+	color: #ff4;
+	font-size: 36px;
+	text-shadow: 0 0 5px #000;
+}
+
+#game{
+	position: relative;
+	margin: 0 auto;
+}
+
+#titleScreen{
+	position: absolute;
+	z-index: 2;
+}
+
+#stage{
+	position: relative;
+}
+
+#output{
+
+}
+
+.cell{
+	position: absolute;
+}
+
+@font-face{
+	font-family: dungeonFont;
+	src: url("Feronia.ttf");
+}
